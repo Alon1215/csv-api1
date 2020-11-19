@@ -38,7 +38,7 @@ public class GreetingController {
             PowerShellResponse response = powerShell.configuration(config).executeScript("get_data.ps1");
 
             //Print results if the script
-            return ("Script output:" + response.getCommandOutput());
+            return ("Script output:\n" + response.getCommandOutput());
         } catch(PowerShellNotAvailableException ex) {
             //Handle error when PowerShell is not available in the system
             //Maybe try in another way?
