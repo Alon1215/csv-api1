@@ -13,7 +13,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 
-@CrossOrigin("http://localhost:3000")
 @Controller
 @RequestMapping("/api/csv")
 public class CSVController {
