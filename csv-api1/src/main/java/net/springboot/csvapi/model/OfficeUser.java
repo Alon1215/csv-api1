@@ -11,8 +11,6 @@ public class OfficeUser {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-
-
     @Column(name = "sign_in_name")
     private String signInName;
 

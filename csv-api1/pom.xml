@@ -46,6 +46,12 @@
             <version>1.8</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.profesorfalken</groupId>
+            <artifactId>jPowerShell</artifactId>
+            <version>3.1.1</version>
+        </dependency>
+
 <!--        <dependency>-->
 <!--            <groupId>mysql</groupId>-->
 <!--            <artifactId>mysql-connector-java</artifactId>-->
@@ -63,6 +69,15 @@
             <artifactId>frontend-maven-plugin</artifactId>
             <version>1.6</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+        </dependency>
+
 
     </dependencies>
 
@@ -141,6 +156,16 @@
                             <arguments>install</arguments>
                         </configuration>
                     </execution>
+
+<!--                    <execution>-->
+<!--                        <id>npm build</id>-->
+<!--                        <goals>-->
+<!--                            <goal>npm</goal>-->
+<!--                        </goals>-->
+<!--                        <configuration>-->
+<!--                            <arguments>run build</arguments>-->
+<!--                        </configuration>-->
+<!--                    </execution>-->
 
                 </executions>
                 <configuration>
